@@ -1,0 +1,5 @@
+name: 'Custom Author Block'
+type: module
+description: 'Adiciona um bloco de autor em cada postagem do blog.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

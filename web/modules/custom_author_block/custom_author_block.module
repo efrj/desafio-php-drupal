@@ -1,0 +1,20 @@
+<?php
+
+function custom_author_block_block_info() {
+    $blocks['author_block'] = [
+        'info' => t('Autor da Publicação'),
+    ];
+    return $blocks;
+}
+
+function custom_author_block_block_view($delta = '') {
+    $block = [];
+  
+    switch ($delta) {
+        case 'author_block':
+            $block['content'] = 'Conteúdo do bloco do autor';
+            break;
+    }
+  
+    return $block;
+}
