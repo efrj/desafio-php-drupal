@@ -1,0 +1,9 @@
+global-styles-and-scripts:
+  css:
+    theme:
+      assets/css/bootstrap.min.css: {}
+      assets/css/style.css: {}
+  js:
+    assets/js/modernizr-latest.js: {}
+    assets/js/bootstrap.min.js: {}
+    assets/js/custom.js: {}

@@ -1,0 +1,15 @@
+name: Opinion
+type: theme
+description: 'Tema leve personalizado para o Drupal.'
+core_version_requirement: ^8 || ^9
+
+base theme: classy
+
+libraries:
+  - opinion/global-styles-and-scripts
+
+regions:
+  header: 'Cabeçalho'
+  menu: 'Menu'
+  content: 'Conteúdo'
+  footer: 'Rodapé'

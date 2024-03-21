@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ html_lang }}"{{ html_attributes }}>
+<head>
+  <head-placeholder token="{{ placeholder_token }}">
+  <title>{{ head_title|safe_join(' | ') }}</title>
+  <css-placeholder token="{{ placeholder_token }}">
+  <js-placeholder token="{{ placeholder_token }}">
+</head>
+<body{{ attributes }}>
+  <header>
+    <h1>Blog da Opinião</h1>
+    <nav>
+      {{ page.menu }}
+    </nav>
+  </header>
+  <main>{{ page.content }}</main>
+  <footer class="footer">
+    <p>&copy; {{ "now"|date("Y") }} Blog da Opinião. Todos os direitos reservados.</p>
+  </footer>
+  <js-bottom-placeholder token="{{ placeholder_token }}">
+</body>
+</html>
